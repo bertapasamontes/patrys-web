@@ -62,10 +62,7 @@ content .description{
     padding: 25px;
     display: grid;
     text-align: center;
-    background-image: url("img/hexagono-alargado.png");
-    background-size: 55% 250%;
-    background-repeat: no-repeat;
-    background-position: center;
+    
     
 }
 
@@ -85,14 +82,13 @@ content .description{
     margin: 50px;
     
 }
-@include media-breakpoint-up(lg) { 
-    .card{
-        display: grid;
-        align-items: center;
-        margin: 50px;
-        width: 865px;
-    }
+.card{
+    display: grid;
+    align-items: center;
+    margin: 50px;
+    /* width: 865px; */
 }
+
 .form-group {
     margin-bottom: 10px;
 }
