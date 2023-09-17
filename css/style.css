@@ -72,6 +72,10 @@ content .description{
     color: aliceblue;
 }
 
+.collapse {
+    margin-bottom: 50px;
+}
+
 /* -------------------------- footer -----------------------------------------*/
 footer{
     position: absolute;
@@ -81,11 +85,11 @@ footer{
 }
 
 footer .row img {
-    width: 200%;
+    width: 25%;
 }
-
-.card {
-    background-color: transparent;
+.contact {
+    display:flex;
+    justify-content: center;
 }
 
 form{
