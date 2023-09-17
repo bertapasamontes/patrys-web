@@ -16,12 +16,13 @@ body{
     margin: 25px;
     margin-top: 5%;
     color: aliceblue;   
+    
 }
 .nombre {
     font-size: 120%;
 }
 .apellidos {
-    font-size: 160%;
+    font-size: 190%;
 }
 
 nav {
