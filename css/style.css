@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* -------------------------- header -----------------------------------------*/
+/* -------------------------- HEADER -----------------------------------------*/
 #nombre-web{
     font-family: Georgia, serif;
     display: grid;
@@ -16,12 +16,13 @@ body{
     margin: 25px;
     margin-top: 5%;
     color: aliceblue;   
+    
 }
 .nombre {
     font-size: 120%;
 }
 .apellidos {
-    font-size: 160%;
+    font-size: 190%;
 }
 
 nav {
@@ -56,7 +57,7 @@ nav ul li:hover {
     color: #f5b677;
 }
 
-/* -------------------------- container -----------------------------------------*/
+/* -------------------------- CONTAINER -----------------------------------------*/
 content .description{
     padding: 25px;
     display: grid;
@@ -72,25 +73,46 @@ content .description{
     color: aliceblue;
 }
 
-/* -------------------------- footer -----------------------------------------*/
-footer{
-    position: absolute;
-    bottom: 0;
-    /* width: 100%;
-    height: 40px; */
-}
 
-footer .row img {
-    width: 200%;
-}
 
-.card {
-    background-color: transparent;
+/*  ------form----- */
+.collapse {
+    margin-bottom: 80px;
 }
-
-form{
+.card{
+    display: grid;
+    align-items: center;
     margin: 50px;
+    
+}
+@include media-breakpoint-up(lg) { 
+    .card{
+        display: grid;
+        align-items: center;
+        margin: 50px;
+        width: 865px;
+    }
 }
 .form-group {
     margin-bottom: 10px;
 }
+
+
+/* -------------------------- FOOTER -----------------------------------------*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    /* width: 100%;
+    height: 40px; */
+    margin-top: 50px;
+}
+
+.footer .row img {
+    width: 25%;
+}
+.contact {
+    display:flex;
+    justify-content: center;
+}
+
+
