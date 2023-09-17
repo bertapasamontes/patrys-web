@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* -------------------------- header -----------------------------------------*/
+/* -------------------------- HEADER -----------------------------------------*/
 #nombre-web{
     font-family: Georgia, serif;
     display: grid;
@@ -56,7 +56,7 @@ nav ul li:hover {
     color: #f5b677;
 }
 
-/* -------------------------- container -----------------------------------------*/
+/* -------------------------- CONTAINER -----------------------------------------*/
 content .description{
     padding: 25px;
     display: grid;
@@ -72,19 +72,41 @@ content .description{
     color: aliceblue;
 }
 
+
+
+/*  ------form----- */
 .collapse {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+.card{
+    display: grid;
+    align-items: center;
+    margin: 50px;
+    
+}
+@include media-breakpoint-up(lg) { 
+    .card{
+        display: grid;
+        align-items: center;
+        margin: 50px;
+        width: 865px;
+    }
+}
+.form-group {
+    margin-bottom: 10px;
 }
 
-/* -------------------------- footer -----------------------------------------*/
-footer{
-    position: absolute;
+
+/* -------------------------- FOOTER -----------------------------------------*/
+.footer{
+    position: fixed;
     bottom: 0;
     /* width: 100%;
     height: 40px; */
+    margin-top: 50px;
 }
 
-footer .row img {
+.footer .row img {
     width: 25%;
 }
 .contact {
@@ -92,9 +114,4 @@ footer .row img {
     justify-content: center;
 }
 
-form{
-    margin: 50px;
-}
-.form-group {
-    margin-bottom: 10px;
-}
+
